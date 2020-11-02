@@ -1,4 +1,4 @@
-import { serve } from "http/server.ts";
+import { serve } from "std/http/server.ts";
 
 const s = serve({ port: 3000 });
 console.log("http://localhost:3000/");
